@@ -1,0 +1,21 @@
+@media screen and (max-width: 800px) {
+    body {
+        background-color: #ff00ff;
+    }
+
+    .minion {
+        /* display: none; */
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media print {
+    * {
+        filter: grayscale(1);
+    }
+}

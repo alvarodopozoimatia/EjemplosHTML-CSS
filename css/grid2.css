@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "h h h"
+        "a s1 s1"
+        "a s2 s3"
+        "f f f"
+        "c c c";
+}
+
+header,
+article,
+footer,
+section {
+    min-height: 50px;
+    border: 1px solid black;
+}
+
+
+header {
+    background-color: darkblue;
+    grid-area: h;
+}
+
+article {
+    background-color: darkgreen;
+    grid-area: a;
+}
+
+section {
+    background-color: darkgoldenrod;
+}
+
+.s1 {
+    grid-area: s1;
+}
+
+.s2 {
+    grid-area: s2;
+}
+
+.s3 {
+    grid-area: s3;
+}
+
+.colspan {}
+
+footer {
+    background-color: gray;
+    grid-area: f;
+}
+
+.copyright {
+    height: 10px;
+    background-color: brown;
+    grid-area: c;
+}

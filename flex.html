@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        body {
+            /* display: flex; */
+            margin: 0;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+            height: 50vh;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        main>div {
+            width: 200px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        main>div:nth-child(2n) {
+            background-color: red;
+        }
+
+        main>div:nth-child(2n+1) {
+            background-color: green;
+        }
+
+        hr {
+            margin: 0;
+            padding: 0;
+            color: red;
+        }
+
+        .section {
+            display: flex;
+            /* border-top: 2px solid yellow; */
+            background-color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div style="height: 100px;">
+            <div style="height: 50px;width: 50px;background-color: white;margin: auto;"></div>
+        </div>
+    </main>
+    <hr>
+    <div class="section">
+
+        <div>
+            <img class="minion" src="/assets/R.png" alt="Imagen de un minion" width="50">
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates facere, necessitatibus a
+            voluptatem est labore, excepturi quam, in illum ad quae? Excepturi sed reiciendis fugit eum dolore neque
+            voluptatum?
+        </div>
+    </div>
+</body>
+
+</html>

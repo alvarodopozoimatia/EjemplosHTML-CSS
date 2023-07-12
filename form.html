@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo form</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <form action="/ruta/target.html" method="post" enctype="multipart/form-data">
+        <label for="text">Nombre:</label>
+        <input type="text" name="texto" id="text" placeholder="Escribe tu nombre" required>
+        <textarea name="desc" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="checkbox" name="condiciones" id="condiciones">
+        <label for="condiciones">He leído y acepto los términos y condiciones del servicio</label>
+        <br>
+        <input type="checkbox" name="condiciones2" id="condiciones2">
+        <label for="condiciones2">He vuelto a leer los términos y condiciones del servicio</label>
+        <br>
+        <input type="radio" name="options" id="opt_1" value="1">
+        <label for="opt_1">Opt 1</label>
+        <br>
+        <input type="radio" name="options" id="opt_2" value="2">
+        <label for="opt_2">opt 2</label>
+        <br>
+        <input type="radio" name="options" id="opt_3" value="3">
+        <label for="opt_3">opt 3</label>
+
+        <br>
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="fecha" id="fecha">
+        <br>
+
+        <select name="opt2" id="" multiple>
+            <option value="1">Si</option>
+            <option value="0">No</option>
+        </select>
+        <br>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="contrasenha" id="pass">
+        <label for="pass2">Contraseña</label>
+        <input type="password" id="pass2">
+        <!-- <input type="submit" value="Enviar"> -->
+        <br>
+        <button type="submit" disabled>
+            Enviar
+        </button>
+
+        <!-- <textarea name="mucho_texto" id="ta" cols="20" rows="10" placeholder="Escribe mucho texto"></textarea>
+        <input type="checkbox" name="cb" id="cb">
+        <input type="radio" name="opciones" id="opt_1">
+        <input type="radio" name="opciones" id="opt_2">
+        <input type="number" min="0" max="10">
+        <select name="select" id="select">
+            <option>Enero</option>
+            <option>Febrero</option>
+        </select>
+        <input type="date" name="" id="">
+        <input type="time">
+        <input type="month" name="" id="">
+        <input type="color" name="" id="">
+        <input type="email" name="" id="">
+        <input type="datetime-local" name="" id="">
+        <input type="hidden" name="oculto" value="1">
+        <input type="reset" value="Reset">
+
+        <input type="range" name="" id=""> -->
+
+    </form>
+</body>
+
+</html>

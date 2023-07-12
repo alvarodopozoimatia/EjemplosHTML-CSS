@@ -1,0 +1,196 @@
+ body {
+     background-color: darkolivegreen;
+ }
+
+ h1 {
+     width: 100vw;
+     background-color: darkgreen;
+     color: rgba(255, 0, 0, 1);
+ }
+
+ li {
+     font-style: italic;
+     background-color: yellow;
+ }
+
+ ul {
+     font-weight: 900;
+ }
+
+ #elemento2.disabled {
+     background-color: yellowgreen;
+ }
+
+ #elemento2 {
+     background-color: #ff00ff;
+ }
+
+
+
+ /* .claro {
+    opacity: 0.5;
+} */
+
+ mark,
+ .rojo {
+     background-color: red;
+ }
+
+ ol li {
+     background-color: aqua;
+ }
+
+ .verde.claro {
+     background-color: #ff000050;
+ }
+
+ #container div {
+     border: 1px solid black;
+     min-height: 15px;
+     min-width: 50px;
+     padding: 5px;
+ }
+
+ [type=color] {
+     margin: 50px;
+ }
+
+ #my_input_color {
+     background-color: red;
+ }
+
+ #container {
+     background-color: red;
+ }
+
+ .container2 {
+     background-color: green;
+     margin: 15px;
+ }
+
+ .test {
+     min-height: 60px;
+     min-width: 60px;
+     background-color: blueviolet;
+     cursor: not-allowed;
+     /* pointer-events: none; */
+     padding: 10px;
+     margin: 30px;
+     border: 5px solid transparent;
+     border-radius: 50%;
+ }
+
+ .test:hover {
+     border: 5px solid yellow;
+
+ }
+
+
+ .cb {
+     margin: 30px;
+ }
+
+ .myCheck {
+     display: none;
+ }
+
+ .myCheck+label {
+     width: 50px;
+     text-align: center;
+     border-radius: 5px;
+     margin: 15px;
+     padding: 5px;
+     border: 2px solid black;
+     font-size: 16px;
+     cursor: pointer;
+ }
+
+ .myCheck:checked+label {
+     border: 2px solid red;
+ }
+
+ a:visited {
+     color: red;
+ }
+
+ /* 
+li:last-child {
+    background-color: red;
+}
+*/
+ li:nth-child(3n) {
+     background-color: greenyellow;
+ }
+
+ /* 
+li:nth-child(3n+1) {
+    background-color: darkgoldenrod;
+} */
+
+ .minion {
+     /* position: absolute; */
+     position: relative;
+     top: 15px;
+     /* top: 500px;
+    left: 400px; */
+     z-index: 10;
+     cursor: default;
+     /* filter: invert() sepia() blur(5px); */
+     transition: transform 5s linear, width 1s linear;
+     width: 200px;
+     
+ }
+ .minion:hover{
+    /* transform: translate(500px) ; */
+    transform: rotate(90deg);
+    /* width: 100px; */
+ }
+
+ .minion2 {
+     /* position: absolute; */
+     position: relative;
+     top: 15px;
+     /* top: 500px;
+    left: 400px; */
+     z-index: 10;
+     cursor: default;
+     filter: sepia();
+     filter: invert();
+     width: 50px;
+ }
+
+ .ventana_flotante {
+     display: none;
+     position: fixed;
+     top: calc(50vh - 51px);
+     right: calc(50vw - 251px);
+     width: 500px;
+     height: 100px;
+     border: 1px solid black;
+     border-radius: 10px;
+     display: grid;
+     place-content: center;
+     background-color: white;
+     font-size: 2rem;
+
+ }
+
+ .oferta {
+     font-size: 40px;
+     font-weight: bold;
+     visibility: visible;
+ }
+
+ .oferta:hover {
+     visibility: hidden;
+ }
+
+ .tochaco {
+     /* height: 700px; */
+     /* overflow: scroll; */
+ }
+
+ li {
+     width: 50%;
+     text-align: center;
+ }
